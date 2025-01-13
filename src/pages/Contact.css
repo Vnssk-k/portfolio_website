@@ -1,0 +1,45 @@
+.contact_container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    position: relative;
+}
+ 
+.contact_info_wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.contact_info_wrapper p {
+    font-family: "Manrope", serif;
+}
+ 
+.page_name_wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    width: 180px;
+    height: 100vh;
+}
+ 
+.page_name_wrapper p {
+    transform: rotate(90deg);
+    font-size: 180px;
+    height: 180px;
+    font-family: "Manrope", serif;
+    font-weight: 700;
+    color: #c24716;
+    padding: 0;
+    margin: 0;
+    white-space: nowrap;
+}

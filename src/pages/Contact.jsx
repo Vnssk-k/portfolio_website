@@ -1,20 +1,21 @@
-
+import './Contact.css'
 function Contact() {
  
-    return (
-      <div>
-        <div>
-          <p>
-            Email
-        
-          </p>
-          <p>
-            olgahrustaljova@mail.ru
-          </p>
-        </div>
+  return (
+    <div className='contact_container'>
+      <div className='contact_info_wrapper'>
+        <p>
+          Feel free to contact me by email:
+        </p>
+        <p>
+          olgahrustaljova@mail.ru
+        </p>
       </div>
-    )
-  }
-  
-  export default Contact
-  
+      <div className='page_name_wrapper'>
+        <p>contact me</p>
+      </div>
+    </div>
+  )
+}
+ 
+export default Contact
