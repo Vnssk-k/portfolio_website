@@ -5,6 +5,7 @@ import './App.css'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import MyWorks from './pages/MyWorks'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/myworks" element={<MyWorks />} />
       </Routes>
+      <Footer/>
     </>
   )
 }
